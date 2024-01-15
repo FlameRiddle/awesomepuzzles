@@ -1,0 +1,25 @@
+* {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#313338, #26272B);
+}
+#main{
+    height: 0; width:25%;padding-bottom:25%;
+    background-color: #17171A;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    height: 0; width:25%;padding-bottom:25%;
+    background-color: white;
+}
