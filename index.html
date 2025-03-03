@@ -12,10 +12,16 @@
             align-items: center;
             text-align: center;
         }
-        a{
+        a, a:visited{
             margin: 10px;
             cursor: pointer;
             user-select: none;
+            color: black;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            padding: 30px;
         }
     </style>
 </head>
@@ -24,6 +30,8 @@
         <h1>generate free epic random puzzles online free</h1>
         <h2>make all the numbers 0!!!</h2>
         <p>sooo fun:3</p>
+    </header>
+    <section id="main">
         <div id="form">
             <p>amount of slots:</p>
             <input name="count" id="count" type="number" value="3" min="3">
@@ -31,11 +39,8 @@
             <input name="max" id="max" type="number" value="2" min="2">
             <button onclick="generate()">randomize</button>
         </div>
-        </form>
-    </header>
-    <section id="main">
-
     </section>
+    <footer><a href="https://flameriddle.github.io/epic-portfolio/">BACK TO KITTY!!!!</a></footer>
 </body>
 <script src="script.js"></script>
 </html>
